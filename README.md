@@ -23,11 +23,11 @@ Astrophysics_API.py: Interface with astrophysics API to obtain metadata (includi
 
 APJ_Scrapping.py: Scrapes fulltext of the astrophysics journal based on DOI.
 
-Astrophysics_nlp: NLP word tokenizing and word feature construction.
+Astrophysics_nlp.py: NLP word tokenizing and word feature construction.
 
-Astrophysics_embedding: From tokenzied words to word embeddings.
+Astrophysics_embedding.py: From tokenzied words to word embeddings.
 
-Astrophysics_modeling: Random Forest Classification Model.
+Astrophysics_modeling.py: Random Forest Classification Model.
 
 ## Contributors
 
