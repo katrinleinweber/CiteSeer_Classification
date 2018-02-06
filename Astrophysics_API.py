@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 Created on Wed Jan 24 01:51:30 2018
-
+Get META data associated with primary paper and citations based on citation tree
 @author: yiqin
 """
 
