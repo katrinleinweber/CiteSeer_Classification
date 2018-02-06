@@ -1,5 +1,5 @@
 
-### CiteSeer Citation Classification
+# CiteSeer Citation Classification
 
 ## Synopsis
 
