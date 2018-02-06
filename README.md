@@ -20,10 +20,10 @@ Astrophysics API, information about usage avaialable at https://github.com/adsab
 ## Components
 
 Astrophysics_API.py: Interface with astrophysics API to obtain metadata (including DOI) associated with script.
-APJ_Scrapping.py: Scrapes fulltext of the astrophysics journal based on DOI
-Astrophysics_nlp: NLP word tokenizing and word feature construction
-Astrophysics_embedding: From tokenzied words to word embeddings
-Astrophysics_modeling: Random Forest Classification Model
+APJ_Scrapping.py: Scrapes fulltext of the astrophysics journal based on DOI.
+Astrophysics_nlp: NLP word tokenizing and word feature construction.
+Astrophysics_embedding: From tokenzied words to word embeddings.
+Astrophysics_modeling: Random Forest Classification Model.
 
 ## Contributors
 
