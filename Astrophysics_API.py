@@ -5,8 +5,6 @@ Get META data associated with primary paper and citations based on citation tree
 @author: yiqin
 """
 
-#Get meta information from API Primary Articles
-
 def makeDOI(x):
     doi = str(re.findall(r"'(.*?)'", x, re.DOTALL))
     doi="http://dx.doi.org/" + doi.replace("[","").replace("'","").replace("]","")
