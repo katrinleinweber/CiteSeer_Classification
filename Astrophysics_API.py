@@ -7,7 +7,7 @@ Get META data associated with primary paper and citations based on citation tree
 
 def makeDOI(x):
     doi = str(re.findall(r"'(.*?)'", x, re.DOTALL))
-    doi="http://dx.doi.org/" + doi.replace("[","").replace("'","").replace("]","")
+    doi="https://doi.org/" + doi.replace("[","").replace("'","").replace("]","")
     return doi
 
 def strip(x):
@@ -40,7 +40,7 @@ for key in key_list:
             if "ApJ." in dataMap[key]['Citation'].split(",")[i] and any(x in dataMap[key]['Citation'].split(",")[i] for x in list(map(str, range(1990,2017)))):
                 citations.append(dataMap[key]['Citation'].split(",")[i].replace("]","").replace("[",""))
                 doi = str(re.findall(r"'(.*?)'", dataMap[key]['DOI'].split(",")[i], re.DOTALL))
-                doi="http://dx.doi.org/" + doi.replace("[","").replace("'","").replace("]","")
+                doi="https://doi.org/" + doi.replace("[","").replace("'","").replace("]","")
                 dois.append(doi)
                 primary.append(dataMap[key]['Primary'])
 
